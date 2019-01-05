@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++11 -g  -shared -Wl,-soname,libkinect2_tracker.so -o devel/lib/libkinect2_tracker.so CMakeFiles/kinect2_tracker.dir/src/kinect2_tracker_node.cpp.o  -L/opt/ros/kinetic/lib 
